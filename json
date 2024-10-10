@@ -1,0 +1,38 @@
+
+{
+  "name": "John Doe",
+  "username": "johndoe",
+  "password": "password123",
+  "age": 30,
+  "gender": "male",
+  "location": "New York",
+  "job_description": "Software Engineer"
+}
+
+
+
+{
+  "message": "User created successfully"
+}
+
+{
+  "username": "johndoe",
+  "password": "password123"
+}
+
+{
+  "token": "your_jwt_token",
+  "user": {
+    "id": 1,
+    "name": "John Doe",
+    "username": "johndoe",
+    "age": 30,
+    "gender": "male",
+    "location": "New York",
+    "job_description": "Software Engineer"
+  }
+}
+
+{
+  "message": "Invalid username or password"
+}
