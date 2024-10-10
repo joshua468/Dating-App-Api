@@ -1,4 +1,9 @@
 
+
+Method: POST
+Endpoint: /register
+Request Body:
+json
 {
   "name": "John Doe",
   "username": "johndoe",
@@ -8,18 +13,21 @@
   "location": "New York",
   "job_description": "Software Engineer"
 }
-
-
-
+Response:
 {
   "message": "User created successfully"
 }
 
+Login User Endpoint:
+
+Method: POST
+Endpoint: /login
+Request Body:
 {
   "username": "johndoe",
   "password": "password123"
 }
-
+Response (success):
 {
   "token": "your_jwt_token",
   "user": {
@@ -32,7 +40,7 @@
     "job_description": "Software Engineer"
   }
 }
-
+Response (failure):
 {
   "message": "Invalid username or password"
 }
